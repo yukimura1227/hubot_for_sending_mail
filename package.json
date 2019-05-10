@@ -1,0 +1,8 @@
+{
+  "name": "hubot_for_sending_mail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yukimura1227/hubot_for_sending_mail.git",
+  "author": "yukimura1227 <takamura1227@gmail.com>",
+  "license": "MIT"
+}
