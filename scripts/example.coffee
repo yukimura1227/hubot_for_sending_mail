@@ -9,7 +9,14 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-
+  robot.hear /rule/i, (res) ->
+    res.send "ねぇしってる。。。？"
+    setTimeout ->
+      res.send "こんな運用ルールがあるんだよ？ xxxxx"
+      setTimeout ->
+        res.send "もやもやしたら改善していこうね"
+      , 3000
+    , 3000
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
